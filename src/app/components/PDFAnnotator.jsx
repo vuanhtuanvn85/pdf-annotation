@@ -12,6 +12,9 @@ const pdfViewerStyles = `
   .rpv-core__page-layer {
     margin: 0px;
   }
+  .relative.border.border-gray-300.rounded {
+    margin: auto;
+  }
 `;
 
 export default function PDFAnnotator({ pdfUrl, onSave }) {
